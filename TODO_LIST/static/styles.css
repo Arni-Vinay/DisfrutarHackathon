@@ -1,0 +1,17 @@
+/* static/css/styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background: #f4f4f4;
+    padding: 10px;
+}
+
+nav a {
+    margin-right: 10px;
+}
+
+main {
+    padding: 20px;
+}

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Edit Task</title>
+</head>
+<body>
+    <h1>Edit Task</h1>
+    <form method="post">
+        <input type="text" name="task" value="{{ todo.task }}" required>
+        <input type="text" name="reminder" value="{{ todo.reminder }}">
+        <input type="date" name="due_date" value="{{ todo.due_date }}">
+        <input type="time" name="due_time" value="{{ todo.due_time }}">
+        <button type="submit">Save Changes</button>
+    </form>
+</body>
+</html>
